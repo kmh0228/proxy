@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx anyproxy -i --rule ./config.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/kmh0228/proxy/issues"
   },
-  "homepage": "https://github.com/kmh0228/proxy#readme"
+  "homepage": "https://github.com/kmh0228/proxy#readme",
+  "devDependencies": {
+    "anyproxy": "^4.1.3"
+  }
 }
